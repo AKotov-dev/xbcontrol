@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: setunit.snotscreen
+msgid "The current screen is not found! Application terminate!"
+msgstr "Не найден текущий экран! Приложение закрывается!"
+
+#: tmainform.caption
+msgid "XBControl"
+msgstr ""
+
+#: tsetform.autostartbtn.hint
+msgid "Autostart"
+msgstr "Автостарт"
+
+#: tsetform.bbar.hint
+msgctxt "tsetform.bbar.hint"
+msgid "Blue"
+msgstr "Синий"
+
+#: tsetform.brightnessbar.hint
+msgctxt "tsetform.brightnessbar.hint"
+msgid "Brightness"
+msgstr "Яркость"
+
+#: tsetform.caption
+msgid "SetForm"
+msgstr ""
+
+#: tsetform.closebtn.hint
+msgid "Close Program"
+msgstr "Закрыть программу"
+
+#: tsetform.ctempbox.text
+msgctxt "tsetform.ctempbox.text"
+msgid "..."
+msgstr ""
+
+#: tsetform.gbar.hint
+msgctxt "tsetform.gbar.hint"
+msgid "Green"
+msgstr "Зелёный"
+
+#: tsetform.label1.caption
+msgid ""
+"License: GPLv3\n"
+"Author: alex_q_2000 (C) 2020\n"
+msgstr ""
+"Лицензия: GPLv3\n"
+"Автор: alex_q_2000 (C) 2020\n"
+
+#: tsetform.label10.caption
+msgid "Color temperature:"
+msgstr "Температура цвета:"
+
+#: tsetform.label2.caption
+msgid "R-"
+msgstr ""
+
+#: tsetform.label3.caption
+msgid "R+"
+msgstr ""
+
+#: tsetform.label4.caption
+msgid "G-"
+msgstr ""
+
+#: tsetform.label5.caption
+msgid "G+"
+msgstr ""
+
+#: tsetform.label6.caption
+msgctxt "tsetform.label6.caption"
+msgid "B-"
+msgstr ""
+
+#: tsetform.label7.caption
+msgctxt "tsetform.label7.caption"
+msgid "B+"
+msgstr ""
+
+#: tsetform.label8.caption
+msgid "b-"
+msgstr ""
+
+#: tsetform.label9.caption
+msgid "b+"
+msgstr ""
+
+#: tsetform.rbar.hint
+msgctxt "tsetform.rbar.hint"
+msgid "Red"
+msgstr "Красный"
+
+#: tsetform.resetbtn.hint
+msgid "Reset"
+msgstr "Сброс"
+

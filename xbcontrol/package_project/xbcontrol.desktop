@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=XBControl (Brightness control)
+Name[ru]=XBControl (Регулировка яркости)
+Comment=XRandR Brightness Control (Adjusting the display brightness)
+Comment[ru]=XRandR Brightness Control (Регулировка яркости дисплея)
+Icon=xbcontrol
+Exec=xbcontrol
+Type=Application
+Categories=Utility
+Terminal=False

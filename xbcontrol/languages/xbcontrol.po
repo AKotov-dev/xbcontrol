@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: setunit.snotscreen
+msgid "The current screen is not found! Application terminate!"
+msgstr ""
+
+#: tmainform.caption
+msgid "XBControl"
+msgstr ""
+
+#: tsetform.autostartbtn.hint
+msgid "Autostart"
+msgstr ""
+
+#: tsetform.bbar.hint
+msgctxt "tsetform.bbar.hint"
+msgid "Blue"
+msgstr ""
+
+#: tsetform.brightnessbar.hint
+msgctxt "tsetform.brightnessbar.hint"
+msgid "Brightness"
+msgstr ""
+
+#: tsetform.caption
+msgid "SetForm"
+msgstr ""
+
+#: tsetform.closebtn.hint
+msgid "Close Program"
+msgstr ""
+
+#: tsetform.ctempbox.text
+msgctxt "tsetform.ctempbox.text"
+msgid "..."
+msgstr ""
+
+#: tsetform.gbar.hint
+msgctxt "tsetform.gbar.hint"
+msgid "Green"
+msgstr ""
+
+#: tsetform.label1.caption
+msgid ""
+"License: GPLv3\n"
+"Author: alex_q_2000 (C) 2020\n"
+msgstr ""
+
+#: tsetform.label10.caption
+msgid "Color temperature:"
+msgstr ""
+
+#: tsetform.label2.caption
+msgid "R-"
+msgstr ""
+
+#: tsetform.label3.caption
+msgid "R+"
+msgstr ""
+
+#: tsetform.label4.caption
+msgid "G-"
+msgstr ""
+
+#: tsetform.label5.caption
+msgid "G+"
+msgstr ""
+
+#: tsetform.label6.caption
+msgctxt "tsetform.label6.caption"
+msgid "B-"
+msgstr ""
+
+#: tsetform.label7.caption
+msgctxt "tsetform.label7.caption"
+msgid "B+"
+msgstr ""
+
+#: tsetform.label8.caption
+msgid "b-"
+msgstr ""
+
+#: tsetform.label9.caption
+msgid "b+"
+msgstr ""
+
+#: tsetform.rbar.hint
+msgctxt "tsetform.rbar.hint"
+msgid "Red"
+msgstr ""
+
+#: tsetform.resetbtn.hint
+msgid "Reset"
+msgstr ""
+

@@ -1,0 +1,21 @@
+{"version":1,"strings":[
+{"hash":164157149,"name":"tsetform.caption","sourcebytes":[83,101,116,70,111,114,109],"value":"SetForm"},
+{"hash":204234368,"name":"tsetform.label1.caption","sourcebytes":[76,105,99,101,110,115,101,58,32,71,80,76,118,51,10,65,117,116,104,111,114,58,32,97,108,101,120,95,113,95,50,48,48,48,32,40,67,41,32,50,48,50,48],"value":"License: GPLv3\nAuthor: alex_q_2000 (C) 2020"},
+{"hash":5147582,"name":"tsetform.gbar.hint","sourcebytes":[71,114,101,101,110],"value":"Green"},
+{"hash":234869843,"name":"tsetform.brightnessbar.hint","sourcebytes":[66,114,105,103,104,116,110,101,115,115],"value":"Brightness"},
+{"hash":22708,"name":"tsetform.rbar.hint","sourcebytes":[82,101,100],"value":"Red"},
+{"hash":299957,"name":"tsetform.bbar.hint","sourcebytes":[66,108,117,101],"value":"Blue"},
+{"hash":5818820,"name":"tsetform.resetbtn.hint","sourcebytes":[82,101,115,101,116],"value":"Reset"},
+{"hash":191553620,"name":"tsetform.autostartbtn.hint","sourcebytes":[65,117,116,111,115,116,97,114,116],"value":"Autostart"},
+{"hash":230915949,"name":"tsetform.closebtn.hint","sourcebytes":[67,108,111,115,101,32,80,114,111,103,114,97,109],"value":"Close Program"},
+{"hash":1357,"name":"tsetform.label2.caption","sourcebytes":[82,45],"value":"R-"},
+{"hash":1355,"name":"tsetform.label3.caption","sourcebytes":[82,43],"value":"R+"},
+{"hash":1181,"name":"tsetform.label4.caption","sourcebytes":[71,45],"value":"G-"},
+{"hash":1179,"name":"tsetform.label5.caption","sourcebytes":[71,43],"value":"G+"},
+{"hash":1101,"name":"tsetform.label6.caption","sourcebytes":[66,45],"value":"B-"},
+{"hash":1099,"name":"tsetform.label7.caption","sourcebytes":[66,43],"value":"B+"},
+{"hash":1613,"name":"tsetform.label8.caption","sourcebytes":[98,45],"value":"b-"},
+{"hash":1611,"name":"tsetform.label9.caption","sourcebytes":[98,43],"value":"b+"},
+{"hash":12558,"name":"tsetform.ctempbox.text","sourcebytes":[46,46,46],"value":"..."},
+{"hash":193312778,"name":"tsetform.label10.caption","sourcebytes":[67,111,108,111,114,32,116,101,109,112,101,114,97,116,117,114,101,58],"value":"Color temperature:"}
+]}
