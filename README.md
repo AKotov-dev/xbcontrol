@@ -1,7 +1,5 @@
-**xbcontrol** - XRandr display Brightness and gamma Control
-
-XBControl - a program for adjusting the brightness and gamma of the monitor.
-  
+XBControl - XRandr display Brightness and gamma Control
+--
 **Dependencies:** xrandr gtk2
   
 - After installation, it is located in the `Menu-Utilities`
