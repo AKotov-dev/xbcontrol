@@ -76,7 +76,7 @@ toolversion=2.2.0
 5=https://linuxnow.ru/view.php?id=103
 6=
 7=v0.6
-8=+ Added rpm-dependencies: gtk2 libappindicator-gtk3
+8=+ Added rpm-dependencies: gtk2
 9=+ Recompilation in Lazarus 2.2.0
 10=+ Launch changed: LAZUSEAPPIND=NO (/usr/bin/xbcontrol)
 11=+ Plasma: LCL scaling (Hi-DPI)
