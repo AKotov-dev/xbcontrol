@@ -1,40 +1,43 @@
 object SetForm: TSetForm
-  Left = 509
-  Height = 276
-  Top = 241
-  Width = 424
+  Left = 304
+  Height = 287
+  Top = 125
+  Width = 474
   ActiveControl = BrightnessBar
+  Anchors = [akLeft]
   Caption = 'SetForm'
-  ClientHeight = 276
-  ClientWidth = 424
-  DesignTimePPI = 92
+  ClientHeight = 287
+  ClientWidth = 474
   OnClose = FormClose
   OnCreate = FormCreate
   OnShow = FormShow
   SessionProperties = 'BBar.Position;CTempBox.ItemIndex;GBar.Position;Height;Left;RBar.Position;Top;Width;BrightnessBar.Position'
   ShowInTaskBar = stNever
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.2.0.4'
   object Label1: TLabel
+    AnchorSideTop.Control = Bevel1
+    AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 8
+    Left = 7
     Height = 28
-    Top = 244
-    Width = 169
+    Top = 255
+    Width = 165
     Anchors = [akLeft, akBottom]
+    BorderSpacing.Top = 16
+    BorderSpacing.Bottom = 4
     Caption = 'License: GPLv3'#10'Author: alex_q_2000 (C) 2020'
     Font.Color = clGray
     Font.Height = -11
     Font.Name = 'Sans'
-    ParentColor = False
     ParentFont = False
   end
   object GBar: TTrackBar
     AnchorSideRight.Control = Label5
     Left = 32
-    Height = 36
+    Height = 47
     Hint = 'Green'
     Top = 99
-    Width = 360
+    Width = 410
     Max = 100
     OnChange = BrightnessBarChange
     Position = 100
@@ -50,17 +53,18 @@ object SetForm: TSetForm
     TabOrder = 0
   end
   object BrightnessBar: TTrackBar
+    AnchorSideRight.Control = Label9
     Left = 32
-    Height = 36
+    Height = 47
     Hint = 'Brightness'
     Top = 8
-    Width = 360
+    Width = 410
     Max = 100
     Min = 10
     OnChange = BrightnessBarChange
     Position = 100
     Anchors = [akTop, akLeft, akRight]
-    BorderSpacing.Right = 3
+    BorderSpacing.Right = 4
     Font.Height = -12
     Font.Name = 'Sans'
     ParentColor = False
@@ -72,10 +76,10 @@ object SetForm: TSetForm
   object RBar: TTrackBar
     AnchorSideRight.Control = Label3
     Left = 32
-    Height = 36
+    Height = 47
     Hint = 'Red'
-    Top = 58
-    Width = 360
+    Top = 54
+    Width = 410
     Max = 100
     OnChange = BrightnessBarChange
     Position = 100
@@ -93,10 +97,10 @@ object SetForm: TSetForm
   object BBar: TTrackBar
     AnchorSideRight.Control = Label7
     Left = 32
-    Height = 36
+    Height = 47
     Hint = 'Blue'
-    Top = 139
-    Width = 360
+    Top = 144
+    Width = 410
     Max = 100
     OnChange = BrightnessBarChange
     Position = 100
@@ -112,15 +116,19 @@ object SetForm: TSetForm
     TabOrder = 3
   end
   object ResetBtn: TSpeedButton
+    AnchorSideTop.Control = Bevel1
     AnchorSideRight.Control = CloseBtn
+    AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 349
-    Height = 34
+    Left = 392
+    Height = 38
     Hint = 'Reset'
-    Top = 238
-    Width = 34
+    Top = 245
+    Width = 38
     Anchors = [akRight, akBottom]
-    BorderSpacing.Right = 2
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 4
     Glyph.Data = {
       36090000424D3609000000000000360000002800000018000000180000000100
       2000000000000009000064000000640000000000000000000000000000000000
@@ -202,16 +210,20 @@ object SetForm: TSetForm
     ParentShowHint = False
   end
   object AutoStartBtn: TSpeedButton
+    AnchorSideTop.Control = Bevel1
     AnchorSideRight.Control = ResetBtn
+    AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 313
-    Height = 34
+    Left = 353
+    Height = 38
     Hint = 'Autostart'
-    Top = 238
-    Width = 34
+    Top = 245
+    Width = 38
     AllowAllUp = True
     Anchors = [akRight, akBottom]
-    BorderSpacing.Right = 2
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 4
     Glyph.Data = {
       36090000424D3609000000000000360000002800000018000000180000000100
       2000000000000009000064000000640000000000000000000000000000000000
@@ -295,16 +307,20 @@ object SetForm: TSetForm
     ParentShowHint = False
   end
   object CloseBtn: TSpeedButton
+    AnchorSideTop.Control = Bevel1
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 385
-    Height = 34
+    Left = 431
+    Height = 38
     Hint = 'Close Program'
-    Top = 238
-    Width = 34
+    Top = 245
+    Width = 38
     Anchors = [akRight, akBottom]
+    BorderSpacing.Top = 6
     BorderSpacing.Right = 5
+    BorderSpacing.Bottom = 4
     Glyph.Data = {
       36090000424D3609000000000000360000002800000018000000180000000100
       2000000000000009000064000000640000000000000000000000000000000000
@@ -390,14 +406,13 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 68
+    Top = 69
     Width = 17
     Caption = 'R-'
     Font.Color = clRed
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label3: TLabel
@@ -405,9 +420,9 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 396
+    Left = 446
     Height = 17
-    Top = 68
+    Top = 69
     Width = 23
     Anchors = [akTop, akRight]
     BorderSpacing.Right = 5
@@ -416,7 +431,6 @@ object SetForm: TSetForm
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label4: TLabel
@@ -424,14 +438,13 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 109
+    Top = 114
     Width = 17
     Caption = 'G-'
     Font.Color = clGreen
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label5: TLabel
@@ -439,9 +452,9 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 396
+    Left = 446
     Height = 17
-    Top = 109
+    Top = 114
     Width = 23
     Anchors = [akTop, akRight]
     BorderSpacing.Right = 5
@@ -450,7 +463,6 @@ object SetForm: TSetForm
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label6: TLabel
@@ -458,14 +470,13 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 149
+    Top = 159
     Width = 17
     Caption = 'B-'
     Font.Color = clBlue
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label7: TLabel
@@ -473,9 +484,9 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 396
+    Left = 446
     Height = 17
-    Top = 149
+    Top = 159
     Width = 23
     Anchors = [akTop, akRight]
     BorderSpacing.Right = 5
@@ -484,7 +495,6 @@ object SetForm: TSetForm
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Bevel1: TBevel
@@ -492,8 +502,8 @@ object SetForm: TSetForm
     AnchorSideRight.Side = asrBottom
     Left = 7
     Height = 4
-    Top = 229
-    Width = 412
+    Top = 240
+    Width = 462
     Anchors = [akLeft, akRight]
     BorderSpacing.Right = 5
     Shape = bsTopLine
@@ -503,14 +513,13 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 18
+    Top = 23
     Width = 16
     Caption = 'b-'
     Font.Color = clGray
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object Label9: TLabel
@@ -518,9 +527,9 @@ object SetForm: TSetForm
     AnchorSideTop.Side = asrCenter
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 396
+    Left = 446
     Height = 17
-    Top = 18
+    Top = 23
     Width = 22
     Anchors = [akTop, akRight]
     BorderSpacing.Right = 6
@@ -529,7 +538,6 @@ object SetForm: TSetForm
     Font.Height = -14
     Font.Name = 'Sans'
     Font.Style = [fsBold]
-    ParentColor = False
     ParentFont = False
   end
   object CTempBox: TComboBox
@@ -538,9 +546,9 @@ object SetForm: TSetForm
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     Left = 137
-    Height = 29
-    Top = 190
-    Width = 255
+    Height = 37
+    Top = 197
+    Width = 305
     Anchors = [akLeft, akRight]
     BorderSpacing.Left = 5
     BorderSpacing.Right = 32
@@ -580,19 +588,18 @@ object SetForm: TSetForm
     AnchorSideBottom.Side = asrCenter
     Left = 9
     Height = 17
-    Top = 195
+    Top = 206
     Width = 123
     Anchors = [akLeft, akBottom]
     Caption = 'Color temperature:'
     Font.Height = -13
     Font.Name = 'Sans'
-    ParentColor = False
     ParentFont = False
   end
   object XMLPropStorage1: TXMLPropStorage
     StoredValues = <>
-    left = 208
-    top = 13
+    Left = 152
+    Top = 24
   end
   object TrayIcon1: TTrayIcon
     Icon.Data = {
@@ -903,7 +910,7 @@ object SetForm: TSetForm
     Hint = 'XBControl'
     Visible = True
     OnClick = TrayIcon1Click
-    left = 92
-    top = 13
+    Left = 56
+    Top = 24
   end
 end

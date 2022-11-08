@@ -3,22 +3,23 @@ program xbcontrol;
 {$mode objfpc}{$H+}
 
 uses
-  {$IFDEF UNIX}{$IFDEF UseCThreads}
+ {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
-  {$ENDIF}{$ENDIF}
+   {$ENDIF} {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Unit1, setunit
-  { you can add units after this };
+  Forms,
+  Unit1,
+  setunit { you can add units after this };
 
 {$R *.res}
 
 begin
-  Application.Title:='XBControl v0.5';
-  RequireDerivedFormResource:=True;
+  Application.Scaled := True;
+  Application.Title := 'XBControl v0.6';
+  RequireDerivedFormResource := True;
   Application.Initialize;
   Application.ShowMainForm := False; //Скрываем MainForm
   Application.CreateForm(TMainForm, MainForm);
   Application.CreateForm(TSetForm, SetForm);
   Application.Run;
 end.
-

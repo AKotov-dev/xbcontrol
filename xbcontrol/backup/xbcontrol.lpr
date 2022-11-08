@@ -13,9 +13,11 @@ uses
 {$R *.res}
 
 begin
-  Application.Title:='XBControl v0.4';
+  Application.Scaled:=True;
+  Application.Title:='XBControl v0.6';
   RequireDerivedFormResource:=True;
   Application.Initialize;
+  Application.ShowMainForm := False; //Скрываем MainForm
   Application.CreateForm(TMainForm, MainForm);
   Application.CreateForm(TSetForm, SetForm);
   Application.Run;

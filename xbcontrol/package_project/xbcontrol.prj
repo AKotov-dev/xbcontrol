@@ -2,10 +2,10 @@
 name=xbcontrol
 
 [VERSION]
-version=0.5
+version=0.6
 
 [RELEASE]
-release=3.mrx7
+release=0.mrx9
 
 [GROUP]
 group=Applications/System
@@ -25,13 +25,13 @@ vendor=alex_q_2000 (C) 2020
 summary=XRandr display Brightness and gamma Control
 
 [URLCOPY]
-urlcopy=https://cloud.mail.ru/public/5kma/573FjdpNE
+urlcopy=https://github.com/AKotov-dev/xbcontrol
 
 [LICENSE]
 license=GPLv3+
 
 [DEPS]
-deps=xrandr
+deps=xrandr gtk2
 
 [META]
 meta=0
@@ -42,6 +42,9 @@ noarch=0
 [SIGN]
 sign=0
 
+[DEB]
+deb=0
+
 [FILES]
 0=/usr/bin/xbcontrol
 1=/usr/share/xbcontrol/
@@ -49,20 +52,8 @@ sign=0
 3=/usr/share/icons/xbcontrol.png
 4=/usr/share/applications/xbcontrol.desktop
 
-[AFTERINSTALL]
-0=#ldconfig
-1=#update-desktop-database -q /usr/share/applications
-2=#update-mime-database /usr/share/mime
-3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
-
-[AFTERREMOVE]
-0=#ldconfig
-1=#update-desktop-database -q /usr/share/applications
-2=#update-mime-database /usr/share/mime
-3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
-
 [URL32]
-url32=https://cloud.mail.ru/public/5kma/573FjdpNE
+url32=https://github.com/AKotov-dev/xbcontrol
 
 [URL64]
 url64=
@@ -74,12 +65,19 @@ programname=XBControl
 devtool=Lazarus
 
 [TOOLVERSION]
-toolversion=1.8.4
+toolversion=2.2.0
 
 [INFO]
-0=The program XBControl is designed to control the brightness and gamma of the display via XRandR.
+0=The program XBControl is designed to control the brightness and gamma of the display via XRandR
 1=
 2=Additional information on XRandr:
 3=---
 4=https://www.ostechnix.com/how-to-adjust-monitor-brightness-from-command-line-in-linux/
 5=https://linuxnow.ru/view.php?id=103
+6=
+7=v0.6
+8=+ Added rpm-dependencies: gtk2 libappindicator-gtk3
+9=+ Recompilation in Lazarus 2.2.0
+10=+ Launch changed: LAZUSEAPPIND=NO (/usr/bin/xbcontrol)
+11=+ Plasma: LCL scaling (Hi-DPI)
+12=+ Release for Mageia-9 and higher

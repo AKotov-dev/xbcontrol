@@ -175,6 +175,8 @@ end;
 
 procedure TSetForm.FormShow(Sender: TObject);
 begin
+  XMLPropStorage1.Restore;
+
   if FileExists(GetEnvironmentVariable('HOME') +
     '/.config/autostart/xbcontrol.desktop') then
     AutoStartBtn.Down := True

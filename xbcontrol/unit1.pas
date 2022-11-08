@@ -23,7 +23,8 @@ var
   MainForm: TMainForm;
 
 implementation
-     uses setunit;
+
+uses setunit;
 
 {$R *.lfm}
 

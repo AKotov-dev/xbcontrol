@@ -1,12 +1,11 @@
 object MainForm: TMainForm
-  Left = 284
-  Height = 148
-  Top = 143
-  Width = 258
+  Left = 305
+  Height = 154
+  Top = 128
+  Width = 269
   Caption = 'XBControl'
-  DesignTimePPI = 92
   Position = poDefault
   SessionProperties = 'TrackBar1.Position;TrackBar2.Position;TrackBar3.Position;TrackBar4.Position'
   ShowInTaskBar = stNever
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.2.0.4'
 end
